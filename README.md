@@ -1,57 +1,26 @@
-# ApproxyClock
+# Minimal Pi Clock
 
-The ApproxyClock is [one of my machines](https://github.com/richelbilderbeek/Machines) that uses Arduino.
-It is a clock that gives the correct time, but humand can only approximately estimate it.
+<!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-All the files you need:
+[![Check bash style](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_bash_style.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_bash_style.yaml)
+[![Check links](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_links.yaml)
+[![Check Markdown](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_markdown.yaml)
+[![Create website](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/create_website.yaml)
 
- * [Arduino code](src/ApproxyClock.ino)
- * [Fritzing schematic](ApproxyClock.fzz)
- * [Etch copper bottom](ApproxyClock_etch_copper_bottom.pdf)
- * [Etch copper bottom, mirrored](ApproxyClock_etch_copper_bottom_mirror.pdf)
- * [Etch copper top](ApproxyClock_etch_copper_top.pdf)
- * [Etch copper top, mirrored](ApproxyClock_etch_copper_top_mirror.pdf)
- * [Paper casing](ApproxyClockPaperCasing.dxf) to be wrapped around the 5mm thick foamboard
+<!-- markdownlint-enable MD013 -->
 
-You can also read the [FAQ](FAQ.md).
- 
-## Pictures
+[Go to our nicely rendered website](https://richelbilderbeek.github.io/minimal_pi_clock/).
 
-Ordered from new to old
+- [Contributing](docs/CONTRIBUTING.md)
 
-### 2015-04-08: Start with PCB
+## Files used by continuous integration scripts
 
-![ApproxyClock PCB 2015-04-08](ApproxyClockPcb1.jpg)
+<!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-![ApproxyClock PCB 2015-04-08](ApproxyClockPcb2.jpg)
+Filename                                    |Descriptions
+--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
+[`mlc_config.json`](mlc_config.json)        |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
+[`.markdownlint.jsonc`](.markdownlint.jsonc)|Configuration of the Markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
+[`.markdownlintignore`](.markdownlintignore)|Files ignored by the Markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
 
-### 2015-04-06: Wrapped a paper casing around it:
-
-![ApproxyClock 2015-04-06](ApproxyClock5.jpg)
-
-### 2015-04-06: Added an extra cut-out
-
-![ApproxyClock 2015-04-06](ApproxyClock4.jpg)
-
-### 2015-03-29: Assembled version
-
-![ApproxyClock 2015-03-29](ApproxyClock3.jpg)
-
-### 2015-03-29: Peek into inside before assemblage
-
-![ApproxyClock 2015-03-29](ApproxyClock2.jpg)
-![ApproxyClock 2015-03-29](ApproxyClock1.jpg)
-
-### 2015-03-22: Prototype 3: Added touch sensors
-
-![ApproxyClock prototype for 2015-03-22](ApproxyClockPrototype3.jpg)
-
-### 2015-03-22: Prototype 2: Added rainbow time
-
-![ApproxyClock prototype for 2015-03-22](ApproxyClockPrototype2.jpg)
-
-### 2015-03-21: Prototype 1
-
-![ApproxyClock prototype for 2015-03-21](ApproxyClockPrototype1.jpg)
-
-
+<!-- markdownlint-enable MD013 -->

@@ -1,0 +1,71 @@
+site_name: Approxyclock
+
+repo_url: https://github.com/richelbilderbeek/approxyclock
+edit_uri: blob/main/docs/
+
+
+nav:
+  - Main page: README.md
+  - Photos: photos/README.md
+  - Parts list: parts_list/README.md
+  - Code: src/README.md
+  - Schematic: schematic/README.md
+  - Casing: casing/README.md
+  - FAQ: faq.md
+  - Contributing: CONTRIBUTING.md
+
+theme:
+  name: material
+  greetings: Welcome to the Approxyclock website
+  font:
+    text: Lato
+    code: JetBrains Mono
+  palette:
+    primary: black
+
+  logo: logo/r_written_with_white_backround.png
+
+  features:
+    - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.footer
+#    - navigation.expand
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+      
+markdown_extensions:
+  - toc:
+      toc_depth: 2
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+  - admonition
+  - tables
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.keys
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      
