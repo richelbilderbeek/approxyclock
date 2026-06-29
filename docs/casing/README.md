@@ -14,3 +14,7 @@ I used two OpenSCAD libraries:
   structures
 - [text_on_OpenSCAD](https://github.com/brodykenrick/text_on_OpenSCAD):
   for the text on the machine
+
+##
+
+- FreeCAD file: [`approxyclock_paper_casing.dxf`](approxyclock_paper_casing.dxf)
