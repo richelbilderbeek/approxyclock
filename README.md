@@ -1,15 +1,15 @@
-# Minimal Pi Clock
+# Approxyclock
 
 <!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-[![Check bash style](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_bash_style.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_bash_style.yaml)
-[![Check links](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_links.yaml)
-[![Check Markdown](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/check_markdown.yaml)
-[![Create website](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/minimal_pi_clock/actions/workflows/create_website.yaml)
+[![Check bash style](https://github.com/richelbilderbeek/approxyclock/actions/workflows/check_bash_style.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/approxyclock/actions/workflows/check_bash_style.yaml)
+[![Check links](https://github.com/richelbilderbeek/approxyclock/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/approxyclock/actions/workflows/check_links.yaml)
+[![Check Markdown](https://github.com/richelbilderbeek/approxyclock/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/approxyclock/actions/workflows/check_markdown.yaml)
+[![Create website](https://github.com/richelbilderbeek/approxyclock/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/richelbilderbeek/approxyclock/actions/workflows/create_website.yaml)
 
 <!-- markdownlint-enable MD013 -->
 
-[Go to our nicely rendered website](https://richelbilderbeek.github.io/minimal_pi_clock/).
+[Go to our nicely rendered website](https://richelbilderbeek.github.io/approxyclock/).
 
 - [Contributing](docs/CONTRIBUTING.md)
 
