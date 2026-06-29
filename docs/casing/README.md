@@ -4,9 +4,9 @@
 
 I designed the casing in OpenSCAD:
 
-```text
-image here
-```
+![Current casing](approxyclock_casing_v0_0.png)
+
+<!--
 
 I used two OpenSCAD libraries:
 
@@ -15,6 +15,4 @@ I used two OpenSCAD libraries:
 - [text_on_OpenSCAD](https://github.com/brodykenrick/text_on_OpenSCAD):
   for the text on the machine
 
-##
-
-- FreeCAD file: [`approxyclock_paper_casing.dxf`](approxyclock_paper_casing.dxf)
+-->
