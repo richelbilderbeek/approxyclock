@@ -1,1 +1,0 @@
-pandoc README.md -o ApproxyClock.pdf
