@@ -8,7 +8,7 @@ Ordered from new to old
 
 ![ApproxyClock PCB 2015-04-08](ApproxyClockPcb2.jpg)
 
-### 2015-04-06: Wrapped a paper casing around it:
+### 2015-04-06: Wrapped a paper casing around it
 
 ![ApproxyClock 2015-04-06](ApproxyClock5.jpg)
 
@@ -36,5 +36,4 @@ Ordered from new to old
 ### 2015-03-21: Prototype 1
 
 ![ApproxyClock prototype for 2015-03-21](ApproxyClockPrototype1.jpg)
-
 
