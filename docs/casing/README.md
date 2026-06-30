@@ -40,3 +40,10 @@ and use a screw to connect the two parts.
 
 I decided to call my new design the 'Lipstick' design.
 
+## Lipstick
+
+I started with the design of
+[The Minimal Pi Clock](https://richelbilderbeek.github.io/minimal_pi_clock/)
+and made its spherical design more egg shaped:
+
+![Approxyclock, lipstick design v0.1](lipstick_v0_1.png)
