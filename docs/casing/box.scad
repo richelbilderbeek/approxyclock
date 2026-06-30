@@ -1,6 +1,3 @@
-// Approxyclock casing
-// Lipstick design
-
 // From https://github.com/BelfrySCAD/BOSL2
 include <../../../BOSL2/std.scad>
 include <../../../BOSL2/threading.scad>
